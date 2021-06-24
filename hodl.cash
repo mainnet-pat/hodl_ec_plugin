@@ -1,0 +1,12 @@
+pragma cashscript ^0.6.0;
+
+contract hodl(
+    int locktime,
+    bytes20 pubkeyHash
+) {
+    function spend(pubkey ownerPubkey, sig ownerSig) {
+        require(tx.time >= locktime);
+        require(hash160(ownerPubkey) == pubkeyHash);
+        require(checkSig(ownerSig, ownerPubkey));
+    }
+}

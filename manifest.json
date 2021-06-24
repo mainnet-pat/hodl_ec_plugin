@@ -1,0 +1,11 @@
+{
+    "display_name": "HODL",
+    "version": "1.0.0",
+    "description": "Lock your funds and have no FUD",
+    "project_url": "https://github.com/mainnet-pat/hodl_ec_plugin",
+    "minimum_ec_version": "4.2.0",
+    "package_name": "hodl",
+    "available_for": [
+        "qt"
+    ]
+}
