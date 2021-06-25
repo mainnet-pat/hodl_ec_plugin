@@ -11,9 +11,10 @@ Then you'll certainly want to use the HODL plugin for Electron Cash. With it you
 
 ## Quick start
 
-1. First, download and verify sha256 of the hodl-vVERSION.zip file from [releases](https://github.com/mainnet-pat/hodl_ec_plugin/releases). Then go to your Electron Cash and install the plugin,
-2. The plugin tab should show up. Click "Create new HODL contract", choose the amount of BCH you want to lock until either certain blockchain height or certain date.
-3. Select the matured contract and click "Spend contract" to release the funds and claim them back to your wallet.
+1. First, download and verify sha256 of the hodl-vVERSION.zip file from [releases](https://github.com/mainnet-pat/hodl_ec_plugin/releases).
+2. Then go to your Electron Cash and install the plugin: in the menu click "Tools" > "Installed Plugins..." > "Add Plugin". Select the dowloaded archive and aggree to the terms to proceed.
+3. The plugin tab should show up. Click "Create new HODL contract", choose the amount of BCH you want to lock until either certain blockchain height or certain date.
+4. Select the matured contract and click "Spend contract" to release the funds and claim them back to your wallet.
 
 ## Limitations and notices
 
